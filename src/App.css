@@ -1,0 +1,100 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+ 
+}
+
+.app.login-containerlabel{
+  cursor: pointer;
+  }
+  .app .login-container,
+  .app .signup-container 
+  {
+  background: linear-gradient( #520c69, #242222);
+  padding: 40px 40px;
+  border-radius: 12px;
+  width: 400px;
+  text-align: center;
+  color: #e5e7eb;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+}
+.app .login-container h2,
+  .app .signup-container h2
+  {
+    text-align: center;
+  }
+
+  .app{
+    height: 100%;
+    background: linear-gradient(to bottom, #fcfdff, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.app .login-container .input-group,
+.app .signup-container .input-group
+{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.app .login-container .input-group img,
+.app .signup-container .input-group img
+{
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.app .login-container .input-group .left-icon,
+.app .signup-container .input-group .left-icon
+{
+    left: 5px;
+}
+.app .login-container .input-group .right-icon,
+.app .signup-container .input-group .right-icon
+{
+    right: 5px;
+    cursor: pointer;
+}
+.app .login-container .input-group input,
+.app .signup-container .input-group input
+{
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: #f2f2f2;
+    padding: 0 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.app .login-container .forgot-password{
+    width: 100%;
+    text-align: right;
+    padding-bottom: 20px;
+}
+.app .login-container .forgot-password label,
+.app .login-container p label,
+.app .signup-container p label
+{
+    cursor: pointer;
+    font-weight: bold;
+}
+.app .login-container button,
+.app .signup-container button
+{
+    border: none;
+    height: 40px;
+    background: #faf8f8;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.app .login-container button:hover,
+.app .signup-container button:hover
+{
+    cursor: pointer;
+    background: #3e0e52;
+    color: #f2f2f2;
+}
